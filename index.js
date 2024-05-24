@@ -76,7 +76,7 @@ const question3 = async () => {
     message: "Is Node.js single threaded or multithreaded \n",
     choices: ["Single threaded", "Multi threaded"],
   });
-  return handleAnswer(answers.question3 == "Multi threaded");
+  return handleAnswer(answers.question3 == "Single threaded");
 };
 
 const question4 = async () => {
